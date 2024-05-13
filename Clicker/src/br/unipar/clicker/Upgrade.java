@@ -1,4 +1,30 @@
 package br.unipar.clicker;
 
 public class Upgrade {
+
+
+    public Double click=0d;
+    public Double quantidadeUpgrade=0d;
+
+
+
+    public Double getClick() {
+        return click;
+    }
+
+    public Double getQuantidadeUpgrade() {
+        return quantidadeUpgrade;
+    }
+
+    public void CompraUpgrade(){
+        this.quantidadeUpgrade ++;
+        Bonus();
+
+    }
+
+    public void Bonus(){
+        click = quantidadeUpgrade;
+    }
+
+
 }
