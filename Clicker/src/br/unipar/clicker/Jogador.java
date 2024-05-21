@@ -14,6 +14,9 @@ public class Jogador {
         this.cookies = cookies- up1.getValorUpgrade();
     }
 
+    public void comprouUpgrade2(){
+        this.cookies = cookies- up2.getValorUpgrade();
+    }
 
     public Double getCookies() {
         return cookies;

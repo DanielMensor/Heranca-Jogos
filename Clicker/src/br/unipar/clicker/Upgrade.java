@@ -23,15 +23,9 @@ public class Upgrade {
     public void CompraUpgrade(){
         this.quantidadeUpgrade ++;
         Bonus();
-        quantidadeUpgrade++;
-
     }
 
     public void Bonus(){
         click = quantidadeUpgrade;
     }
-
-
-
-
 }
